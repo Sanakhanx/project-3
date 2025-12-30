@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    // background: #000;
+    display: flex;
+
+    .navbar{
+        height: 100%;
+        width: 100%;
+        // background: #b83c3c;
+
+        .box1{
+            height: 10%;
+            width: 100%;
+            //  background: #f0e9e9;
+
+            .b1{
+                height: 100%;
+                width: 40%;
+                // background: #000;
+                margin-left: 55%;
+                display: flex;
+                gap:10px;
+
+                .b{
+                    flex:1;
+                    padding: 10px;
+                    // background-color: #83ee08;
+
+                    a{
+                        text-decoration: none;
+                        color:black;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        gap: 10px;
+                    }
+                }
+                
+            }
+            
+            .b2{
+                height: 10%;
+                width: 15%;
+                //  background: #f1eeee;
+                position: absolute;
+                top: 0%;
+                left: 5%;
+            }
+
+
+        }
+
+        .box2{
+             height: 70%;
+             width: 100%;
+             background: #7bcae9;
+            //  display: flex;
+            //  gap: 20px;
+
+            .bp{
+                height: 100%;
+                width: 100%;
+                background: #000;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                   object-fit: cover;
+                   background-size: cover;
+                }
+            }
+
+        
+
+        }
+
+        .box3{
+            height: 50%;
+            width: 100%;
+            // background: #000;
+            justify-content: center;
+            display: flex;
+            gap: 20px;
+            align-content: space-evenly;
+
+            .b3{
+                flex: 1;
+                padding: 20px;
+                // background: #b3e00f;
+
+                
+            }
+
+        }
+    }
+}
